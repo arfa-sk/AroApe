@@ -1,34 +1,40 @@
-# ExoApe Clone 🦍 - Page Transitions & Debounced Scroll Triggered Animations
-A clone of the Exo Ape website, built from scratch with **React (TypeScript)**, **GSAP**, **Motion (Framer Motion)**, and **Lenis** to showcase advanced front-end animation techniques and smooth scrolling experiences.
+# AroApe
 
-[**Live Demo**](https://exoape-clone-yash.vercel.app/)
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/aed8fd2d-c6fa-49fd-8b89-cdd226036431" />
-<img width="1728" alt="image" src="https://github.com/user-attachments/assets/ff2bcb41-1cb8-4f9b-960e-89f3b96148e9" />
+Welcome to **AroApe**, the personal portfolio and creative agency website of Arfa Sohail Khan.
 
+## Overview
+AroApe is a modern, high-performance web application designed to showcase luxury cinematic animations and a premium user experience. Built with a focus on fluid typography, advanced motion design, and intelligent interactive systems.
 
-## 🌟 Features
+## Features
+- **Cinematic Animations:** Powered by GSAP (GreenSock) and Framer Motion.
+- **Ultra-Smooth Scrolling:** Integrated with Lenis for a fluid scroll experience.
+- **Dynamic Interactions:** Custom interactive cursors and deep scroll-triggered animations.
+- **Responsive Design:** Fully adaptive layouts tailored for desktop and mobile devices.
 
-1. **🌊 Smooth Scroll (Lenis):** Enjoy a seamless scrolling experience powered by Lenis, implemented within a fixed container layout. 
-2. **👀 Context-Aware Header:** The header dynamically changes its elements based on the current scroll position and the section visible in the viewport. 
-3. **🎬 Elegant Page Transitions:** Smooth and visually appealing transitions between pages or sections enhance the user flow. 
-4. **🚀 Debounced Scroll Animations:** Animations trigger on debounced scroll so that even on small or large scroll, only a single page transition is triggered. 
-5. **↔️ Horizontal Scroll Interaction:** * Scroll-linked horizontal movement creates an engaging sideways exploration. * Clicking a 'close' element smoothly transitions the horizontal section back to its origin and executes a page transition out. 
-6. **📌 Pin Container Effects:** Utilizes GSAP's ScrollTrigger to 'pin' elements during scroll, creating focused interaction points. 
-7. **🖱️ Custom Cursor with Hover Effects:** A unique custom cursor provides visual feedback, changing its appearance or displaying text when hovering over specific interactive elements.
-8. **🗜️ Sticky Footer:** The Footer section appears as we scroll down, acting like it is present in place, and the content above it moves above to reveal the content.
+## Tech Stack
+- **Framework:** React & Vite
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP, Framer Motion, Lenis
 
-### ⚙️ Technical Excellence
-- 🧩 Component-driven architecture
-- 🛡 Type-safe animations with TypeScript
-- 🎯 Performance-optimized animations having proper cleanup
+## Getting Started
 
-## 🛠️ Tech Stack
-- ⚛️ React Typescript + Vite
-- 🎬 GSAP (GreenSock Animation Platform)
-- 🌀 Motion
-- 🎨 Tailwind CSS
-- 📜 Lenis Smooth Scroll
-- 📦 NPM Package Management
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/arfa-sk/AroApe.git
+   cd AroApe
+   ```
 
-## ✨ Acknowledgements 
-This project is inspired by the design and animations of the original [Exoape](https://www.exoape.com/) website. It serves as a learning exercise and a showcase of animation capabilities.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   Navigate to [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Designed & Developed By
+**Arfa Sohail Khan**
+[GitHub](https://github.com/arfa-sk) | [LinkedIn](https://www.linkedin.com/in/arfa-khan24/)
