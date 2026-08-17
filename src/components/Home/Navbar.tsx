@@ -188,16 +188,7 @@ const Navbar = ({
                 Work
               </a>
             </Link>
-            <Link
-              style={{
-                color: logoColor,
-              }}
-              className="text-base font-light"
-              to={"https://www.exoape.com/"}
-              target="blank"
-            >
-              Original
-            </Link>
+
             <Link
               to={"https://github.com/arfa-sk"}
               target="blank"

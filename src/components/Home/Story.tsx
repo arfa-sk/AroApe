@@ -55,7 +55,7 @@ const Story = ({
             autoPlay
             muted
             loop
-            src="https://www.exoape.com/video/video-6.mp4"
+            src="/video-6.mp4"
           ></video>
         </div>
         <div
